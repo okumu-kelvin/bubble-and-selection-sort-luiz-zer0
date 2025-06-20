@@ -10,6 +10,10 @@ def selection_sort(arr):
     
     return arr
 
+print(selection_sort([1, 2, 3]))  # Should return [1, 2, 3]
+print(selection_sort([3, 2, 1]))  # Should return [1, 2, 3]
+print(selection_sort([29, 10, 14, 37, 14]))  # Should return [10, 14, 14, 29, 37]
+
 
    
 
